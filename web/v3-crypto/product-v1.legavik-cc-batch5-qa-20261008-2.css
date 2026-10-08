@@ -139,3 +139,7 @@
 /* Product & Service V1: preserve the annual-service shell while separating expanded content. */
 .knowledge-route{scroll-behavior:auto}
 .annual-value-item[open]{background:#fffdf8}.annual-value-detail{margin:0 0 10px;padding:22px 26px 28px;border:1px solid #e5e4da;border-radius:12px;background:#fffdf8}.annual-service-note{margin-top:18px!important;padding:14px 16px;border-left:3px solid #c39a52;background:#faf6ed}.plan-renewal-fixed{margin-top:18px;padding:14px 16px;border-radius:9px;background:#f7f4eb;color:#486158;font-size:13px;line-height:1.65}
+
+/* Consultation uses the centered login-card composition within the product shell. */
+.legacy-consultation{width:100%;min-width:0}.legacy-consultation .auth-layout{display:grid;place-items:center;padding:72px 20px;min-height:calc(100vh - 92px)}.legacy-consultation .auth-card{width:min(520px,100%);min-width:0;margin:0;border:1px solid var(--line);border-radius:24px;padding:42px;box-shadow:0 24px 70px rgba(6,44,34,.08)}.legacy-consultation h1{margin:12px 0 20px;font:500 34px/1.45 Georgia,"Noto Serif SC",serif;overflow-wrap:anywhere}.legacy-consultation .auth-card>p{color:var(--muted);line-height:1.7}.legacy-consultation .button{display:inline-flex;justify-content:center;max-width:100%;margin-top:16px;text-decoration:none}
+@media(max-width:760px){.legacy-consultation .auth-layout{padding:40px 20px}.legacy-consultation .auth-card{padding:28px}.legacy-consultation h1{font-size:28px}.legacy-consultation .button{width:100%}}
